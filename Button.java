@@ -6,4 +6,12 @@ public class Button extends Item{
         super(x, y);
         this.isPressed = false;
     }
+    
+    public void press(){
+        this.isPressed = true;
+    }
+    
+    public void release(){
+        this.isPressed = false;
+    }
 }

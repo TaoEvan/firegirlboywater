@@ -1,9 +1,6 @@
 public abstract class Item{
-    private int x;
-    private int y;
-    
-//    public Item(){
-//    }
+    public int x;
+    public int y;
     
     // Item constructor, cannot instantiate objects
     public Item(int x, int y){

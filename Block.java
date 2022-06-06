@@ -9,4 +9,10 @@ public class Block extends Item{
         this.width = width;
     }
     
+    public void move(String direction){
+        if (direction.equals("left"))
+            this.x--; // TBD
+        else
+            this.x++; // TBD
+    }
 }
